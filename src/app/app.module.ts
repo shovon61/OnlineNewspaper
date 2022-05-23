@@ -12,6 +12,8 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
 
 import { HttpClientModule } from '@angular/common/http';
 import { NewsapiserviceService } from './service/newsapiservice.service';
+import { HealthComponent } from './health/health.component';
+import { ScienceComponent } from './science/science.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NewsapiserviceService } from './service/newsapiservice.service';
     NavbarComponent,
     SportsComponent,
     TechnewsComponent,
-    EntertainmentComponent
+    EntertainmentComponent,
+    HealthComponent,
+    ScienceComponent
   ],
   imports: [
     BrowserModule,
